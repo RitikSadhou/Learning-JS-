@@ -25,9 +25,9 @@ const user2={
 //console.log(final);
 //console.log(user2);
 
-//console.log( `keys are :- ${Object.keys(user2)}`);
-//console.log( `values are :- ${Object.values(user2)}`);
-//console.log( `${Object.entries(user2)}`);
+console.log( `keys are :- ${Object.keys(user2)}`);
+console.log( `values are :- ${Object.values(user2)}`);
+console.log( `${Object.entries(user2)}`);
 
 
 //we have array of object in js so we find those name whose age greater than 18 
@@ -50,4 +50,4 @@ let adults = people.filter(filterByAgeGreaterThan18);
 let adultNames = adults.map(person => person.name);
 
 // Print the result
-console.log("Names of people with age greater than 18:", adultNames);
+//console.log("Names of people with age greater than 18:", adultNames);
