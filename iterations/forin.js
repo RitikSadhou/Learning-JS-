@@ -7,6 +7,6 @@ const obj={
     mail:"abc@gmail.com"
 
 }
- (const key in obj) {
+for  ( const key in obj) {
     console.log(` value of the ${key} is ${obj[key]}`);
 }
