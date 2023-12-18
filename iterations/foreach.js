@@ -1,10 +1,13 @@
 const arr=[1,8,6,6,89,5,10];
-arr.Each((index, element, arr) => {
+arr.forEach((index, element, arr) => {
    // console.log(index,element,arr);// return a element of array, with index , and whole  array
 });
-arr.Each((element)=>{
-    console.log(element*2);
+const mynew=[];
+arr.forEach((element)=>{
+    if(element>1)
+    mynew.push(element);
 })
+console.log(mynew);
 const user=[
 
 {
@@ -30,13 +33,13 @@ const user=[
 
 ]
 
-user.Each((item)=>{
+user.forEach((item)=>{
     //if(item.name=="Ritik")
    // console.log(item.age, item.mail);
 })
 
 //console.log(' A name of User whose Age   is greater than 18');
-user.Each((item)=>{
+user.forEach((item)=>{
     if(item.age>18){
         //console.log(item.name, item.mail);
     }
