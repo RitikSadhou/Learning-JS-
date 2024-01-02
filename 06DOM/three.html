@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Chai aur Code </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    //how to  created a new element in  js 
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1) //random values will be set 
+    div.setAttribute("title","shivi's repo")//prefered by programmer's rather tan this every other property will override the original values
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    //div.innerText = "chai aur code"  alternate of this is below 
+    const addText  = document.createTextNode("chai aur code")
+    div.appendChild(addText)
+
+//set body with div element.
+    document.body.appendChild(div)
+</script>
+</html>
