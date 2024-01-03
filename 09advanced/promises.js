@@ -12,7 +12,7 @@ const promiseFour = new Promise(function(resolve, reject){
     setTimeout(function(){
         let error = false
         if (!error) {
-            resolve({username: "hitesh", password: "123"})
+            resolve({username: "ritik", password: "12345678"})
         } else {
             reject('ERROR: Something went wrong')
         }
